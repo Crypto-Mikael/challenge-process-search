@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.section {
+  padding: 40px 120px;
+  background-color: rgb(224,224,224);
+}
+
+.h1 {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.h4 {
+  font-size: large;
+  font-weight: 600;
+}
