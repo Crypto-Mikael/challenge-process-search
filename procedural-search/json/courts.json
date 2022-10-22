@@ -1,30 +1,30 @@
 [
   {
-    "nome": "Supremo Tribunal Federal",
-    "sigla": "STF"
+    "name": "Supremo Tribunal Federal",
+    "initials": "STF"
   },
   {
-    "nome": "Superior Tribunal de Justiça",
-    "sigla": "STJ"
+    "name": "Superior Tribunal de Justiça",
+    "initials": "STJ"
   },
   {
-    "nome": "Conselho da Justiça Federal",
-    "sigla": "CJF"
+    "name": "Conselho da Justiça Federal",
+    "initials": "CJF"
   },
   {
-    "nome": "Superior Tribunal Militar",
-    "sigla": "STM"
+    "name": "Superior Tribunal Militar",
+    "initials": "STM"
   },
   {
-    "nome": "Tribunal Superior do Trabalho",
-    "sigla": "TST"
+    "name": "Tribunal Superior do Trabalho",
+    "initials": "TST"
   },
   {
-    "nome": "Conselho Superior da Justiça do Trabalho",
-    "sigla": "CSJT"
+    "name": "Conselho Superior da Justiça do Trabalho",
+    "initials": "CSJT"
   },
   {
-    "nome": "Tribunal Superior Eleitoral",
-    "sigla": "TSE"
+    "name": "Tribunal Superior Eleitoral",
+    "initials": "TSE"
   }
 ]
