@@ -1,0 +1,155 @@
+[
+  {
+    "cnjNumber": "5001682-88.2017.8.13.0672",
+    "nameOfTheParts": {
+      "author": "NelsonWilians & lawyers Associados",
+      "defendant": "Construnelli IN Works Construtora e Incorpora",
+      "lawyers": [
+        {
+          "name": "Rafael Sganzerla Durand",
+          "oab": "OAB 002251/RJ"
+        },
+        {
+          "name": "Wilton Lusi de Carvalho",
+          "oab": "OAB 002337/RJ"
+        }
+      ]
+    },
+    "courtOfOrigin": "STF",
+    "startDate": "09/11/2017",
+    "movements": [
+      {
+        "date": "11/06/2018",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      },
+      {
+        "date": "11/06/2018",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      }
+    ]
+  },
+  {
+    "cnjNumber": "8002642-88.2009.8.13.0312",
+    "nameOfTheParts": {
+      "author": "Antônio de Souza Ferreira",
+      "defendant": "João Mariano Pinto",
+      "lawyers": [
+        {
+          "name": "Adriano dos Santos Campos",
+          "oab": "OAB 00123/RJ"
+        },
+        {
+          "name": "Frederico Junior Ferreira",
+          "oab": "OAB 002217/RJ"
+        }
+      ]
+    },
+    "courtOfOrigin": "STJ",
+    "startDate": "06/09/2009",
+    "movements": [
+      {
+        "date": "14/11/2009",
+        "description": "Decisão encaminhada para publicacão no Diario Oficial. Ciência das partes"
+      },
+      {
+        "date": "18/11/2009",
+        "description": "Decisão publicada no Diario Oficial no dia 18/11/2009 seção 3 pagina 741"
+      }
+    ]
+  },
+  {
+    "cnjNumber": "5002442-48.2010.8.13.0712",
+    "nameOfTheParts": {
+      "author": "Ferdinaldo do Nascimento",
+      "defendant": "Ernani Klauner",
+      "lawyers": [
+        {
+          "name": "Roberto Adrade Ferreira",
+          "oab": "OAB 004130/BH"
+        },
+        {
+          "name": "Mario Felipinas de Souza",
+          "oab": "OAB 002187/BH"
+        }
+      ]
+    },
+    "courtOfOrigin": "CJF",
+    "startDate": "01/02/2010",
+    "movements": [
+      {
+        "date": "02/01/2010",
+        "description": "Remessa a DGCON: 02/01/2010, Recebido em: 02/01/2010; Idt. nos autos: 262/267, Fls: 311416/311421"
+      },
+      {
+        "date": "08/02/2010",
+        "description": "Decisão publicada no Diario Oficial no dia 08/02/2010 seção 2 pagina 412"
+      }
+    ]
+  },
+  {
+    "cnjNumber": "3002258-48.2003.8.13.0712",
+    "nameOfTheParts": {
+      "author": "Miguel Rorigues & lawyers Associados",
+      "defendant": "Aleiton Palmeiras do Amparo",
+      "lawyers": [
+        {
+          "name": "Lisa Martin",
+          "oab": "OAB 002426/BH"
+        },
+        {
+          "name": "Mario Felipinas de Souza",
+          "oab": "OAB 005912/BH"
+        }
+      ]
+    },
+    "courtOfOrigin": "STM",
+    "startDate": "01/02/2003",
+    "movements": [
+      {
+        "date": "14/02/2003",
+        "description": "Remessa a DGCON: 14/02/2003, Recebido em: 14/02/2003; Idt. nos autos: 262/267, Fls: 521233/421244"
+      },
+      {
+        "date": "23/03/2005",
+        "description": "Decisão publicada no Diario Oficial no dia 23/03/2005 seção 1 pagina 492"
+      },
+      {
+        "date": "11/08/2005",
+        "description": "Decisão publicada no Diario Oficial no dia 08/02/2010 seção 3 pagina 12"
+      }
+    ]
+  },
+  {
+    "cnjNumber": "6007228-48.2007.8.13.0712",
+    "nameOfTheParts": {
+      "author": "Miguel Rorigues & lawyers Associados",
+      "defendant": "Aleiton Palmeiras do Amparo",
+      "lawyers": [
+        {
+          "name": "Ryan Hansen",
+          "oab": "OAB 009426/BH"
+        },
+        {
+          "name": "Andrew Parker",
+          "oab": "OAB 008212/BH"
+        }
+      ]
+    },
+    "courtOfOrigin": "TST",
+    "startDate": "01/02/2007",
+    "movements": [
+      {
+        "date": "14/02/2003",
+        "description": "Remessa a DGCON: 14/02/2003, Recebido em: 14/02/2003; Idt. nos autos: 262/267, Fls: 521233/421244"
+      },
+      {
+        "date": "23/03/2005",
+        "description": "Decisão publicada no Diario Oficial no dia 23/03/2005 seção 1 pagina 492"
+      },
+      {
+        "date": "11/08/2005",
+        "description": "Decisão publicada no Diario Oficial no dia 08/02/2010 seção 3 pagina 12"
+      }
+    ]
+  }
+]
