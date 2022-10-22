@@ -1,0 +1,30 @@
+[
+  {
+    "nome": "Supremo Tribunal Federal",
+    "sigla": "STF"
+  },
+  {
+    "nome": "Superior Tribunal de Justiça",
+    "sigla": "STJ"
+  },
+  {
+    "nome": "Conselho da Justiça Federal",
+    "sigla": "CJF"
+  },
+  {
+    "nome": "Superior Tribunal Militar",
+    "sigla": "STM"
+  },
+  {
+    "nome": "Tribunal Superior do Trabalho",
+    "sigla": "TST"
+  },
+  {
+    "nome": "Conselho Superior da Justiça do Trabalho",
+    "sigla": "CSJT"
+  },
+  {
+    "nome": "Tribunal Superior Eleitoral",
+    "sigla": "TSE"
+  }
+]
