@@ -8,11 +8,6 @@ export default function SearchByCourtComponent() {
   }
 
   return (
-    <>
-      <header className={style.header}>
-        <h1 className={style.h1}>Busca Por Numero do Processo</h1>
-        <h4 className={style.h4}>Digite o numero do processo para lista-lo</h4>
-      </header>
       <section className={style.section}>
         <label>
           <input
@@ -22,8 +17,7 @@ export default function SearchByCourtComponent() {
             placeholder="Número de processo"
           />
         </label>
-        <button onClick={searchListOfProceses}>BUSCAR</button>
+        <button className={style.button} onClick={searchListOfProceses}>BUSCAR</button>
       </section>
-    </>
   );
 }

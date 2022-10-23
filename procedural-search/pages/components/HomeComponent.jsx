@@ -1,34 +1,25 @@
 import { useState } from "react";
 import searchEnum from '../../helpers/searchEnum';
-import SearchByCourtComponent from "./search/SearchByCourtComponent";
-import styles from "./Home.module.css"
-import SearchByProcessComponent from "./search/SearchByProcessComponent";
+import HeaderComponent from "./header/HeaderComponent";
+import style from "./Home.module.css"
+import SearchComponent from "./search/SearchComponent";
+import SearchTypeComponent from "./search/SearchTypeComponent";
+
 
 export default function HomeComponent() {
   const { BY_PROCESS, BY_COURT } = searchEnum;
-  const [tipoDePesquisa, setTipoDePesquisa] = useState(BY_COURT);
-
-  function selectTypeOfSearch() {
-    if (tipoDePesquisa === BY_PROCESS) {
-      return <SearchByProcessComponent></SearchByProcessComponent>
-    } else {
-      return <SearchByCourtComponent></SearchByCourtComponent>;
-    }
-  }
+  const [typeSearch, setTypeSearch] = useState(BY_COURT);
 
   return (
-    <main className={styles.main}>
+    <main className={style.main}>
       <section>
-        <section>
-          <button onClick={() => setTipoDePesquisa(BY_COURT)}>
-            POR TRIBUNAL
-          </button>
-          <button onClick={() => setTipoDePesquisa(BY_PROCESS)}>
-            POR NUMERO DO PROCESSO
-          </button>
-        </section>
-        <section className={styles.section}>
-          { selectTypeOfSearch() }
+        <SearchTypeComponent
+          setTypeCourt={() => setTypeSearch(BY_COURT)}
+          setTypeProcess={() => setTypeSearch(BY_PROCESS)}
+        />
+        <section className={style.section}>
+          <HeaderComponent typeSearch={typeSearch} />
+          <SearchComponent typeSearch={typeSearch} />
         </section>
       </section>
     </main>

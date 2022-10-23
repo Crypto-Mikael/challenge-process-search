@@ -2,10 +2,17 @@ import style from "./ModalComponent.module.css";
 import useSWR from "swr";
 import fetcher from "../../../helpers/fetcher";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function ModalComponent({ court, onClose }) {
+  const router = useRouter();
   const { data, error } = useSWR("/api/process", fetcher);
   const [filtro, setfiltro] = useState("");
+
+  function redirectToPage(cnjNumber) {
+    router.push(`/${cnjNumber}`);
+    onClose();
+  }
 
   function applyFilterToSearchProcess() {
     const processWithCourtFilter = data.filter(({ courtOfOrigin }) => courtOfOrigin === court);
@@ -35,21 +42,25 @@ export default function ModalComponent({ court, onClose }) {
         <section className={style.body}>
           {!error &&
             data &&
-            applyFilterToSearchProcess().map((process, index) => (
-              <article key={index} className={style.article}>
+            applyFilterToSearchProcess().map((process) => (
+              <div
+                key={process.cnjNumber}
+                className={style.article}
+                onClick={() => redirectToPage(process.cnjNumber)}
+              >
                 <div>
                   <h1 className={style.h1}>{process.cnjNumber}</h1>
                   <h4 className={style.h4}>{process.startDate}</h4>
                 </div>
                 <div className={style.div}>
                   <h5 className={style.h5}>
-                    Autor: {process.nameOfTheParts.author}{" "}
+                    Autor: {process.nameOfTheParts.author}
                   </h5>
                   <h5 className={style.h5}>
-                    Reú: {process.nameOfTheParts.defendant}{" "}
+                    Reú: {process.nameOfTheParts.defendant}
                   </h5>
                 </div>
-              </article>
+              </div>
             ))}
         </section>
         <footer className={style.footer}></footer>

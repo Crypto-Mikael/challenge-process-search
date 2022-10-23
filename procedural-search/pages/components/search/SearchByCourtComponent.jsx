@@ -5,18 +5,12 @@ import ModalComponent from "../modal/ModalComponent";
 import style from "./SearchComponent.module.css";
 
 export default function SearchByProcessComponent() {
-  const { data, error } = useSWR('/api/courts', fetcher);
+  const { data, error } = useSWR("/api/courts", fetcher);
   const [courtSelected, setCourt] = useState("STF");
-  const [showModal, setShowModal] = useState(false); 
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <>
-      <header className={style.header}>
-        <h1 className={style.h1}>Busca Por Tribunal</h1>
-        <h4 className={style.h4}>
-          Selecione um tribunal para listar os processos
-        </h4>
-      </header>
       <section className={style.section}>
         <label>
           <select
@@ -34,7 +28,9 @@ export default function SearchByProcessComponent() {
               ))}
           </select>
         </label>
-        <button onClick={() => setShowModal(true)}>BUSCAR</button>
+        <button className={style.button} onClick={() => setShowModal(true)}>
+          BUSCAR
+        </button>
       </section>
       {showModal && (
         <ModalComponent
