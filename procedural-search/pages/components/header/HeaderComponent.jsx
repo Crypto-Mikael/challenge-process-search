@@ -8,9 +8,9 @@ export default function HeaderComponent({ typeSearch }) {
 
   function selectTypeOfHeader() {
     if (typeSearch === BY_PROCESS) {
-      return <HeaderCourtComponent />;
-    } else {
       return <HeaderProcessComponent />;
+    } else {
+      return <HeaderCourtComponent />;
     }
   }
   return selectTypeOfHeader();
