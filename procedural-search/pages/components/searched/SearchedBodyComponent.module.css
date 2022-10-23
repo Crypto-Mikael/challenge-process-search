@@ -1,0 +1,73 @@
+.body {
+  margin: 40px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  width: 800px;
+  height: fit-content;
+  flex-direction: column;
+  border-top: 2px solid rgb(219,219,219);
+  border-right: 2px solid rgb(219,219,219);
+  border-left: 2px solid rgb(219,219,219);
+}
+
+.aside {
+  flex-shrink: 3;
+  width: 400px;
+  padding-left: 40px;
+  flex-direction: column;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(224,224,224);
+}
+
+.date {
+  margin: 0;
+  color: rgb(176,176,176)
+}
+
+.article {
+  padding: 16px;
+  border-bottom: 2px solid rgb(224,224,224);
+}
+
+.h1 {
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.h4 {
+  color: rgb(176,176,176);
+  font-weight: 600;
+  margin: 0;
+}
+
+.h3 {
+  font-weight: 600;
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+
+.a {
+  font-size: medium;
+}
+
+.p {
+  margin: 0;
+  padding: 0;
+}
+
+.pC {
+  font-size: smaller;
+}
