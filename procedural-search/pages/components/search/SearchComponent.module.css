@@ -3,6 +3,10 @@
   align-self: flex-start;
 }
 
+.sectionNavBar {
+  align-self: center;
+}
+
 .button {
   background-color: rgb(66,66,66);
   border: none;

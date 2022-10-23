@@ -17,14 +17,16 @@ export default function ModalComponent({ court, onClose }) {
   function applyFilterToSearchProcess() {
     const processWithCourtFilter = data.filter(({ courtOfOrigin }) => courtOfOrigin === court);
     if (filtro) {
-      return processWithCourtFilter.filter(
-        ({ cnjNumber, startDate, nameOfTheParts }) =>
-          cnjNumber.replace(/[^0-9]/g, "").startsWith(filtro) ||
-          startDate.includes(filtro) ||
-          nameOfTheParts.author.includes(filtro) ||
-          nameOfTheParts.defendant.includes(filtro)
-      );
-    } 
+      return processWithCourtFilter.filter(item => {
+        return (
+          item["cnjNumber"].replace(/[^0-9]/g, "").startsWith(filtro) ||
+          item["cnjNumber"].startsWith(filtro) ||
+          item["nameOfTheParts"]["author"].startsWith(filtro) ||
+          item["nameOfTheParts"]["defendant"].startsWith(filtro) ||
+          item["startDate"].startsWith(filtro)
+        );
+      })
+    }
     return processWithCourtFilter; 
   }
   return (
