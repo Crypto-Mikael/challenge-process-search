@@ -29,6 +29,64 @@
     ]
   },
   {
+    "cnjNumber": "5601224-88.2016.8.13.0662",
+    "nameOfTheParts": {
+      "author": "Eduardo e Mônica",
+      "defendant": "Casa dos Malucos",
+      "lawyers": [
+        {
+          "name": "Bob Meireles",
+          "oab": "OAB 002751/RJ"
+        },
+        {
+          "name": "Wilton Lusi de Carvalho",
+          "oab": "OAB 002324/RJ"
+        }
+      ]
+    },
+    "courtOfOrigin": "STF",
+    "startDate": "09/11/2016",
+    "movements": [
+      {
+        "date": "11/06/2016",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      },
+      {
+        "date": "11/06/2019",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      }
+    ]
+  },
+  {
+    "cnjNumber": "5601224-88.2017.8.13.0662",
+    "nameOfTheParts": {
+      "author": "Fernando Peixoto Marilio",
+      "defendant": "Propeha Fasery Filho",
+      "lawyers": [
+        {
+          "name": "Quinca Samanta",
+          "oab": "OAB 002701/BH"
+        },
+        {
+          "name": "Wilton Lusi de Carvalho",
+          "oab": "OAB 002122/BH"
+        }
+      ]
+    },
+    "courtOfOrigin": "STF",
+    "startDate": "09/11/2017",
+    "movements": [
+      {
+        "date": "11/06/2018",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      },
+      {
+        "date": "11/06/2018",
+        "description": "Suspensão do Prazo referente ao usuário foi alterado para 18/07/2018 devido à alteração da tabela de feriados"
+      }
+    ]
+  },
+  {
     "cnjNumber": "80026242-88.2009.8.13.0312",
     "nameOfTheParts": {
       "author": "Antônio de Souza Ferreira",
